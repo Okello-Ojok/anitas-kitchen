@@ -28,6 +28,9 @@ padding: 0;
 .drinks img{
   display: inline;
 }
+.drinks{
+  text-align: right;
+}
 
 .caro {
   margin: 0 auto;
