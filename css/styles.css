@@ -98,10 +98,15 @@ padding: 0;
 }
 .subscription{
   text-align: center;
+  background-image: url('../assets/backgrounds/subscribe.jpg');
+  background-size: cover;
+  padding: 90px 80px;
+  color: white;
 }
-/*.input-group, .input-group-btn{
-  display: inline;
-}*/
+
+
+
+
 .footer-menu{
   background-color: #F15A29;
   color: white;
