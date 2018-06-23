@@ -1,6 +1,19 @@
 /*.container-fluid{
 padding: 0;
 }*/
+
+/*.container {
+    padding: 80px 120px;
+}*/
+.container{
+  padding: 0 auto;
+}
+
+
+.jumbotron{
+  margin-bottom: 0;
+  border-radius: 0;
+}
 .jumbotron h3{
   text-align: center;
   color: white;
@@ -26,6 +39,7 @@ padding: 0;
 
 .below-header {
   text-align: center;
+  color: white;
 }
 .drinks img{
   display: inline;
@@ -62,7 +76,12 @@ padding: 0;
   padding-top: 70px;
 }
 
-
+.mini-menu{
+  margin-top: 55px;
+}
+.thumbnail{
+  border-radius: 0px;
+}
 
 
 
