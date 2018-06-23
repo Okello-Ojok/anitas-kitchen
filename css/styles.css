@@ -22,6 +22,8 @@ padding: 0;
   display: block;
 }
 
+/**Below Header section **/
+
 .below-header{
   text-align: center;
 }
@@ -31,6 +33,22 @@ padding: 0;
 .drinks{
   text-align: right;
 }
+.breakfast{
+  background-image: url('../assets/foodtop/breakfast.jpg');
+
+}
+.lunch{
+  background-image: url('../assets/foodtop/lunch.jpg');
+}
+.dinner{
+  background-image: url('../assets/foodtop/dinner.jpg');
+}
+
+
+
+
+
+
 
 .caro {
   margin: 0 auto;
