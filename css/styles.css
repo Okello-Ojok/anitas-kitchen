@@ -38,3 +38,6 @@ padding: 0;
 .subscription{
   text-align: center;
 }
+/*.input-group, .input-group-btn{
+  display: inline;
+}*/
