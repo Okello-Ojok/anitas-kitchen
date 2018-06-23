@@ -24,7 +24,7 @@ padding: 0;
 
 /**Below Header section **/
 
-.below-header{
+.below-header {
   text-align: center;
 }
 .drinks img{
@@ -33,17 +33,34 @@ padding: 0;
 .drinks{
   text-align: right;
 }
+
+
+.happy{
+  background-color: silver;
+  padding: 24px 0;
+}
+.party{
+  background-color: #F15A29;
+  padding: 25px 0;
+}
 .breakfast{
+  height: 210px;
   background-image: url('../assets/foodtop/breakfast.jpg');
 
 }
 .lunch{
+  height: 210px;
   background-image: url('../assets/foodtop/lunch.jpg');
 }
+
 .dinner{
+  height: 210px;
   background-image: url('../assets/foodtop/dinner.jpg');
 }
 
+.breakfast h3, .lunch h3, .dinner h3{
+  padding-top: 70px;
+}
 
 
 
