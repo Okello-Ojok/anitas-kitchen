@@ -35,6 +35,10 @@ padding: 0;
 .testimonials{
   background-color: red;
 }
+#customer-caro img{
+  display: inline;
+  padding: 20px;
+}
 .subscription{
   text-align: center;
 }
