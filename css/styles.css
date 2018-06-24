@@ -58,22 +58,28 @@ padding: 0;
   padding: 25px 0;
 }
 .breakfast{
-  height: 210px;
+  padding: 77px;
   background-image: url('../assets/foodtop/breakfast.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 .lunch{
-  height: 210px;
+  padding: 77px;
   background-image: url('../assets/foodtop/lunch.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .dinner{
-  height: 210px;
+  padding: 77px;
   background-image: url('../assets/foodtop/dinner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .breakfast h3, .lunch h3, .dinner h3{
-  padding-top: 70px;
+  /*padding-top: 70px;*/
 }
 
 .mini-menu{
