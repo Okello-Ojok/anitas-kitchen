@@ -47,15 +47,17 @@ padding: 0;
 .drinks{
   text-align: right;
 }
-
+.hapty{
+  padding: 0px;
+}
 
 .happy{
   background-color: silver;
-  padding: 24px 0;
+  /*padding: 24px 0;*/
 }
 .party{
   background-color: #F15A29;
-  padding: 25px 0;
+  /*padding: 25px 0;*/
 }
 .breakfast{
   padding: 77px;
@@ -78,9 +80,9 @@ padding: 0;
   background-position: center;
 }
 
-.breakfast h3, .lunch h3, .dinner h3{
+/*.breakfast h3, .lunch h3, .dinner h3{
   /*padding-top: 70px;*/
-}
+
 
 .mini-menu{
   margin-top: 55px;
@@ -89,12 +91,42 @@ padding: 0;
   border-radius: 0px;
 }
 
+.navTabCarousel{
+  background-image: url('../assets/backgrounds/foodsBg.jpg');
+}
 
-
+.navTabCarousel .container{
+  padding: 80px 60px;
+}
+.nav-tabs{
+  margin-bottom: 30px;
+}
 
 .caro {
-  margin: 0 auto;
+  background-color: white;
+  padding: 20px 40px;
 }
+.carousel{
+  background-color: white;
+}
+.carousel-control.left, .carousel-control.right{
+  background-image: none;
+  color: #F15A29;
+  margin: 0 -90px;
+
+}
+//*.carousel-control{
+  opacity: 0;
+}*/
+
+
+
+
+
+/*#food-caro .carousel{
+  margin-top: 20px;
+}*/
+
 .testimonials{
   background-color: red;
 }
