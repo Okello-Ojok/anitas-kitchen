@@ -120,6 +120,28 @@ body {
   background-position: center;
 }
 
+.overlay {
+  position: relative;
+}
+
+.overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: none;
+  z-index:0;
+}
+.overlay:hover:before{
+  display: block;
+  background-color: rgba(0,0,255);
+}
+
+
+
+
 
 /*.mini-menu{
   padding: 80px 80px;
@@ -153,6 +175,7 @@ body {
   border: none;
   border-radius: 0;
   background-color: silver;
+  color: black;
 }
 .nav-tabs > li.active > a{
   border: none;
@@ -167,16 +190,12 @@ body {
 .carousel{
   background-color: white;
 }
-#food-caro .carousel-control.left, #food-caro .carousel-control.right{
+.carousel-control.left, .carousel-control.right{
   background-image: none;
   color: #F15A29;
-  /*margin: 0 -70px;*/
-
 }
 
-//*.carousel-control{
-  opacity: 0;
-}*/
+
 
 
 
@@ -186,28 +205,21 @@ body {
   margin-top: 20px;
 }*/
 
-.testimonials{
-  background-color: red;
-}
+
 #customer-caro img{
   display: inline;
   padding: 20px;
 }
 
 .well {
-
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 0px;
-    box-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
-
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 0px;
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
 }
-
-
-
-
-
-
+.well h2{
+  color: #F15A29;
+}
 
 
 .subscription{
