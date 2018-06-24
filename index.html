@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link href="bootstrap/css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <title>Anita's Kitchen</title>
@@ -10,13 +11,29 @@
 
   <body>
 <!--Header section-->
-    <!--<div class="container-fluid">-->
+
+
+
       <div class="jumbotron">
+
+        <!--Sliding navigation-->
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+            <nav class="topnav">
+              <a href="#" onclick="openNav()">
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+              </a>
+            </nav>
+
         <img src="assets/logoBig.png" class="img-responsive" alt="">
         <h3>We Provide The Best Food</h3>
         <h3>At The <strong>Right Price.</strong></h3>
       </div>
-    <!--</div>-->
+
 
     <!--Below header section-->
     <div class="container-fluid below-header">
@@ -256,5 +273,6 @@
 
     <script src="js/jquery-3.3.1.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
