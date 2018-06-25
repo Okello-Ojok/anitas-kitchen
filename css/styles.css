@@ -1,5 +1,5 @@
 body {
-  font-family: 'Chelsea Market';
+  font-family: 'Lato';
 }
 
 .sidenav {
@@ -256,6 +256,22 @@ body {
   padding: 90px 80px;
   color: white;
 }
+
+.subscription .btn-default {
+  color: white;
+  background-color: #F15A29;
+  border-color: #F15A29;
+  width: 200px;
+  border: 0;
+}
+.subscription .form-control{
+  width: 300px;
+  background-color: white;
+  opacity: 0.5;
+  color: black;
+  border: none;
+}
+
 
 .footer-menu {
   background-color: #F15A29;
